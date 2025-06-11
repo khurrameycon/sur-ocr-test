@@ -1,0 +1,49 @@
+# bank_statement_processor/requirements.txt
+# Core dependencies for bank statement processing
+
+# Surya OCR dependencies (should already be installed)
+# surya-ocr
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+PyMuPDF>=1.23.0  # For PDF processing
+
+# Data processing and validation
+pydantic>=2.5.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Text and date processing
+python-dateutil>=2.8.0
+unicodedata2>=15.0.0
+
+# Decimal handling
+# decimal
+
+# Configuration management
+python-dotenv>=1.0.0
+pydantic-settings>=2.0.0
+
+# Logging and utilities
+pathlib
+logging
+typing-extensions>=4.0.0
+
+# Optional: For advanced image preprocessing
+scikit-image>=0.21.0
+scipy>=1.10.0
+
+# Optional: For API development (future phase)
+fastapi>=0.100.0
+uvicorn>=0.20.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
